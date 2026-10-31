@@ -1,0 +1,83 @@
+body{
+background-color: rgb(210, 221, 232);
+
+}
+.nav{
+display: flex;
+justify-content: space-between;
+background-color: rgb(252, 252, 252);
+border-radius: 12px;
+}
+.link {
+display: flex;
+gap: 70px;
+color: black;
+font-size: large;
+margin-top: 25px;
+}
+button {
+ background-color: rgb(27, 88, 231);
+    color: rgb(255, 255, 255);
+    height: 35px;
+    width: 80px;
+    border-radius: 10%;
+    border: none;
+    margin: 20px;
+}
+.allprodcts{
+background-color: rgb(248, 249, 249);
+padding: 30px;
+border-radius: 12px;
+display: flex;
+gap: 20px;
+justify-content: space-evenly;
+}
+.card {
+background-color: aliceblue;
+position: relative;  
+display: flex;
+flex-direction: column;
+gap: 15px;
+padding: 15px;
+border-radius: 10px;
+justify-content: center;
+
+}
+.sale {
+ background-color: rgb(252, 74, 116);
+    color: rgb(255, 255, 255);
+    height: 20px;
+    width: 35px;
+    border-radius: 10%;
+    border: none;
+    font-size: small;
+position: absolute;
+top: 35px;
+left: 30px;
+z-index: 1;
+}
+.new {
+color:  rgb(252, 74, 116);
+font-weight: bold;
+
+}
+.price {
+display: flex;
+gap: 10px;
+}
+.old {
+color: rgb(150, 148, 148);
+text-decoration: line-through;
+}
+.normal {
+    color: black;
+    font-weight: bold;
+}
+.Add {
+background-color: transparent;
+color: rgb(66, 66, 235);
+border: 2px solid rgb(66, 66, 235);
+border-radius: 10px;
+width: 250px;
+font-weight: bold;
+}

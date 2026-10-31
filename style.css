@@ -3,6 +3,9 @@ background-color: rgb(210, 221, 232);
 
 }
 .nav{
+ position: sticky;
+ top:0;
+ z-index: 100;
 display: flex;
 justify-content: space-between;
 background-color: rgb(252, 252, 252);
